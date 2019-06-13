@@ -8,6 +8,7 @@ body{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:15px;
+    overflow: hidden;
 }
 
 .main{
@@ -26,4 +27,12 @@ body{
     color: antiquewhite;
     padding: 10px;
     text-transform: capitalize;
+}
+
+@media only screen and (max-width: 768px){
+
+    .main{
+        font-size: 40px;
+        padding:15px 5px;
+    }
 }
